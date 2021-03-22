@@ -1,0 +1,24 @@
+{
+  "name": "leaflet-map",
+  "version": "1.0.0",
+  "main": "index.html",
+  "author": "Moustafa Zaki",
+  "license": "ISC",
+  "description": "",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/faker": "^5.1.7",
+    "@types/leaflet": "^1.7.0",
+    "cssnano": "^4.1.10",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "faker": "^5.4.0",
+    "leaflet": "^1.7.1"
+  }
+}
